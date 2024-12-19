@@ -47,7 +47,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #f0d089;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -82,21 +82,36 @@ main {
     margin-top: 47px;
 }
 
+
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-roman-odintsov-5855909.jpg") no-repeat center center/cover;
+   
 }
+
+#violin{
+    align-self: auto;
+}
+#title{
+font-family: Cantata, Serif;
+    color: #f0d089;
+    background-color: #22242d;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 /* Footer */
 #social-networks {
     background-color: #22242d;
-    text-align: center;
-    padding: 20px 0;
+   
+    padding: 20px 80px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    justify-content: space-between;
 }
 
 #social-networks i {
